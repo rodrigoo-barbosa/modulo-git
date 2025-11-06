@@ -17,7 +17,7 @@ def mostrar_mensagem_inicial():
     """
     Exibe uma mensagem de boas-vindas ao desafio.
     Retorno esperado: string com a mensagem "Bem-vindo ao Desafio de Git!"
-    "
+    """
     return "Bem-vindo ao Desafio de Git!"
 
 def listar_comandos_git_basicos():
@@ -56,15 +56,15 @@ def verificar_tag_valida(tag):
     return bool(re.match(pattern, tag))
 
 
-# def gerar_relatorio_final(funcoes_concluidas):
-#     """
+def gerar_relatorio_final(funcoes_concluidas):
+    """
     Recebe uma lista com os nomes das funções implementadas
     e retorna uma mensagem final do desafio.
 
     Exemplo:
     gerar_relatorio_final(["mostrar_mensagem_inicial", "listar_comandos_git_basicos"])
     ->
-    "Desafio concluído! 2 funções implementadas com sucesso."
+    "Desafio concluído! 2 funções implementadas com sucesso..."
     """
     quantidade = len(funcoes_concluidas)
     if quantidade == 1:
