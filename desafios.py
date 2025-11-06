@@ -63,7 +63,7 @@ def gerar_relatorio_final(funcoes_concluidas):
     Exemplo:
     gerar_relatorio_final(["mostrar_mensagem_inicial", "listar_comandos_git_basicos"])
     ->
-    "Desafio concluído! 2 funções implementadas com sucesso."
+    "Desafio concluído! 2 funções implementadas com sucesso..."
     """
     quantidade = len(funcoes_concluidas)
     if quantidade == 1:
